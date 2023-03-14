@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+:root {
+  --primary: #272a31;
+  --secondary: #ec5242;
+  --light: #d3d3d3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 800,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+/* header */
+
+nav {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 3% 5%;
+  display: flex;
+  align-items: center;
+}
+
+nav .material-symbols-outlined {
+  font-size: 40px;
+  color: var(--primary);
+}
+
+/* headings container */
+
+.main-container {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 10% 7%;
+  background-color: #f2f2f2;
+}
+
+.starter-text {
+  font-weight: normal;
+  font-size: 25px;
+  color: var(--secondary);
+}
+
+.title {
+  margin-top: 1%;
+  font-weight: 900;
+  font-size: 32px;
+  background-image: url("images/1494.jpg");
+  color: transparent;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.disc-container {
+  background-color: #f7f7f7;
+  border: 1px solid #fff;
+  padding: 4%;
+  margin-top: 4%;
+}
+
+.disc-container p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #515151;
+}
+
+.date-text {
+  font-size: 20px;
+  font-weight: 900;
+  color: #595959;
+  margin-top: 6%;
+}
+
+.company {
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 2%;
+  color: #868686;
+  margin-bottom: 5%;
+}
+
+/* program-list */
+
+.program-list {
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 2%;
+  width: 100%;
+}
+
+.program-list h2 {
+  color: #fff;
+  margin-top: 7%;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.program-list hr {
+  width: 10%;
+  height: 2px;
+  background-color: #a04038;
+  margin-top: 3%;
+  border: none;
+}
+
+.event-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 9%;
+}
+.event-card {
+  background-color: #3A3D44;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 18% 18% 50%;
+  gap: 10px;
+  padding: 2%;
+  background-color: #3B3E45;
+}
+
+.event-card h3 {
+  font-weight: 700;
+  color: #ff5438;
+  font-size: 14px;
+}
+
+.event-card p {
+  font-size: 11px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.join-btn {
+  background-color: #ff4f38;
+  color: #fff;
+  font-weight: 900;
+  font-size: 16px;
+  margin-top: 9%;
+  padding: 4% 9%;
+  margin-bottom: 6%;
+}
