@@ -34,7 +34,7 @@ const speakersData = [
   },
   {
     id: 3,
-    name: 'Robert Jones',
+    name: 'Mary Brown',
     FeaturedImage: 'images/speaker_3.svg',
     Description: ' Accomplished professor with a Bachelor\'s degree in Special Education',
     fullDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic voluptates veniam quos minima. Quaerat perspiciatis, animi magni minus velit provident neque aperiam laborum.',
@@ -55,7 +55,7 @@ const speakersData = [
   },
   {
     id: 6,
-    name: 'Mary Brown',
+    name: 'Robert Jones',
     FeaturedImage: 'images/speaker_6.svg',
     Description: 'Innovative educator with a Doctorate in Educational Administration',
     fullDescription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum iure quibusdam et obcaecati rem cumque, unde laudantium. Repellendus!',
@@ -65,7 +65,7 @@ const speakersData = [
 const speakerContainer = document.querySelector('.profile-container');
 
 const profiles = `<h2>
-    Featured Speakers
+    Top Donators
   </h2>
   <hr>
   <div class="profile-cards">
