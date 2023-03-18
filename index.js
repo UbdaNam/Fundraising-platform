@@ -66,25 +66,53 @@ const speakerContainer = document.querySelector('.profile-container');
 
 const profiles = `<h2>
     Top Donators
-  </h2>
-  <hr>
-  <div class="profile-cards">
-    ${speakersData.map((speaker) => `<div class="profile-card">
+    </h2>
+    <hr>
+    <div class="profile-cards">
+    ${speakersData.map((speaker) => `<div id="card${speaker.id}" class="profile-card card${speaker.id}">
     <img src="${speaker.FeaturedImage}" alt="speaker ${speaker.id} image">
     <div class="profile-detail">
-      <h3>${speaker.name}</h3>
-      <p class="profile-summary">${speaker.Description}</p>
-      <hr>
-      <p class="profile-desc">${speaker.fullDescription}</p>
+    <h3>${speaker.name}</h3>
+    <p class="profile-summary">${speaker.Description}</p>
+    <hr>
+    <p class="profile-desc">${speaker.fullDescription}</p>
     </div>
-  </div>`).join('\n')}
-  </div>
+    </div>`).join('\n')}
+    </div>
   <button class="more-btn">
   More
   <span class="material-symbols-outlined">
-    expand_more
+  expand_more
   </span>
 </button>
 </div>`;
 
 speakerContainer.innerHTML = profiles;
+const showMoreBtn = document.querySelector('.more-btn');
+let toggel = true;
+
+const showMore = () => {
+  if (toggel) {
+    document.getElementById('card3').classList.remove('card3');
+    document.getElementById('card4').classList.remove('card4');
+    document.getElementById('card5').classList.remove('card5');
+    document.getElementById('card6').classList.remove('card6');
+    showMoreBtn.innerHTML = `Less
+    <span class="material-symbols-outlined">
+    expand_less
+    </span>`;
+    toggel = !toggel;
+  } else {
+    document.getElementById('card3').classList.add('card3');
+    document.getElementById('card4').classList.add('card4');
+    document.getElementById('card5').classList.add('card5');
+    document.getElementById('card6').classList.add('card6');
+    showMoreBtn.innerHTML = `More
+    <span class="material-symbols-outlined">
+    expand_more
+    </span>`;
+    toggel = !toggel;
+  }
+};
+
+showMoreBtn.addEventListener('click', showMore);

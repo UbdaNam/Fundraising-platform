@@ -37,7 +37,7 @@ nav {
   padding: 17.5px 5%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   background-color: transparent;
 }
 
@@ -63,6 +63,7 @@ nav .material-symbols-outlined {
   bottom: 0;
   background-color: rgba(62, 53, 53, 0.861);
   backdrop-filter: blur(8px);
+  z-index: 99;
 }
 
 .popup-nav-visible {
@@ -206,8 +207,7 @@ nav .material-symbols-outlined {
   display: grid;
   justify-content: space-between;
   align-items: center;
-  grid-template-columns: 18% 18% 50%;
-  gap: 10px;
+  grid-template-columns: 19% 35% 40%;
   padding: 2%;
   background-color: #3b3e45;
 }
@@ -306,10 +306,10 @@ nav .material-symbols-outlined {
   color: #868686;
 }
 
-.profile-card:nth-child(3),
-.profile-card:nth-child(4),
-.profile-card:nth-child(5),
-.profile-card:nth-child(6) {
+.card3,
+.card4,
+.card5,
+.card6 {
   display: none;
 }
 
@@ -354,7 +354,7 @@ nav .material-symbols-outlined {
   padding: 8% 5%;
 }
 
-.about-container h3 {
+.about-starter-text {
   font-weight: normal;
   font-size: 25px;
   color: var(--secondary);
@@ -782,13 +782,6 @@ nav .material-symbols-outlined {
   .profile-desc {
     font-size: 14px;
     margin-top: 2%;
-  }
-
-  .profile-card:nth-child(3),
-  .profile-card:nth-child(4),
-  .profile-card:nth-child(5),
-  .profile-card:nth-child(6) {
-    display: flex;
   }
 
   .more-btn {
