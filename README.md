@@ -21,9 +21,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 We Care <a name="about-project"></a>
 
-**Portfolio: Mobile only** is a portfolio only for mobile devices built with HTML and CSS.
+**We Care: Fundraising platform** is a fundraising platform for different peoples or communities that needs help.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -34,29 +34,30 @@
   <ul>
     <li>HTML</li>
     <li>CSS</li>
+    <li>JavaScript</li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **Added a navbar**
-- **Added a style for home page using flexbox**
-- **Added a background image for my homepage**
-- **Added some bio about me**
+- **Added home page**
+- **List of known donators**
+- **Added about page**
+- **Added account status show on navbar**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://ubdanam.github.io/Portfolio/)
+- [Live Demo Link](https://ubdanam.github.io/Fundraising-platform/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🎥 Video description <a name="video-description"></a>
 
-- Below is a link to a video that I recorded to walk you through why I did this project and what I learned from doing it.
+- Below is a link to a video that I recorded to walk you through why I did this project and what features I added in the platform.
 
-- [Video Description link](https://www.loom.com/share/b34e2bd11749442585d9239e8b470f93)
+- [Video Description link](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,7 +80,7 @@ Clone this repository to your desired folder
 Install this project with:
 
 ```sh
-  cd porfolio
+  cd fundraising-platform
   npm install
 ```
 
@@ -101,9 +102,9 @@ opening the index.html which is located inside the cloned folder, in the browser
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add more content to my home page**
-- [ ] **Add footer for my home page**
-- [ ] **Develop style for desktop size**
+- [ ] **Add payment gateway**
+- [ ] **Add auction system to raise money**
+- [ ] **Add payment forms**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +112,7 @@ opening the index.html which is located inside the cloned folder, in the browser
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the <a href="https://github.com/UbdaNam/Portfolio/issues">Issues page</a>
+Feel free to check the <a href="https://github.com/UbdaNam/Fundraising-platform/issues">Issues page</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,9 +124,9 @@ If you like this project leave a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse for there help in teaching us how to use flexbox for this project
+- Original design idea by <a href="https://www.behance.net/adagio07">Cindy Shin</a> in Behance.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- I would like to thank microverse for there help in teaching us how to implement such kinds of projects
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
